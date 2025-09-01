@@ -46,7 +46,7 @@ const ANON_TOKEN_ENABLED = true
 // 从环境变量初始化配置
 func initConfig() {
 	UPSTREAM_URL = getEnv("UPSTREAM_URL", "https://chat.z.ai/api/chat/completions")
-	DEFAULT_KEY = getEnv("DEFAULT_KEY", "sk-your-key")
+	DEFAULT_KEY = getEnv("DEFAULT_KEY", "sk-kid-kid214")
 	UPSTREAM_TOKEN = getEnv("UPSTREAM_TOKEN", "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjMxNmJjYjQ4LWZmMmYtNGExNS04NTNkLWYyYTI5YjY3ZmYwZiIsImVtYWlsIjoiR3Vlc3QtMTc1NTg0ODU4ODc4OEBndWVzdC5jb20ifQ.PktllDySS3trlyuFpTeIZf-7hl8Qu1qYF3BxjgIul0BrNux2nX9hVzIjthLXKMWAf9V0qM8Vm_iyDqkjPGsaiQ")
 	MODEL_NAME = getEnv("MODEL_NAME", "GLM-4.5")
 	PORT = getEnv("PORT", "8080")
